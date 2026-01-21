@@ -519,6 +519,7 @@ GameObject:
   - component: {fileID: 6531830229164240307}
   - component: {fileID: 1394888045101844250}
   - component: {fileID: 6521053822788436014}
+  - component: {fileID: 2852408070924480422}
   m_Layer: 0
   m_Name: Some what Bouncy
   m_TagString: Untagged
@@ -771,6 +772,18 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &2852408070924480422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7461959218788161644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0587b23b6bf60e94da66d8ff7f7ed81e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9117459187349066603
 GameObject:
   m_ObjectHideFlags: 0
