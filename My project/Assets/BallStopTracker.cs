@@ -5,6 +5,7 @@ public class BallStopTracker : MonoBehaviour
     public Transform targetTransform;   // The transform that will receive the position
     public float stopThreshold = 0.05f;  // How slow is "stopped"
 
+
     private Rigidbody rb;
     private bool hasStopped = false;
 
@@ -16,6 +17,7 @@ public class BallStopTracker : MonoBehaviour
     void OnCollisionStay(Collision collision)
     {
         if (hasStopped)
+
             return;
         // Optional: only trigger on floor
         if (!collision.gameObject.CompareTag("Floor"))
